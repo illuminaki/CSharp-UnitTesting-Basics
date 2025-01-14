@@ -1,0 +1,49 @@
+name: SonarQube Analysis
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'Session*/practice/**'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'Session*/practice/**'
+
+jobs:
+  sonar:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        practice:
+          - session: Session1
+            project_key: Session1-Practice
+            sonar_token: SONAR_TOKEN_SESSION1
+          - session: Session2
+            project_key: Session2-Practice
+            sonar_token: SONAR_TOKEN_SESSION2
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Setup .NET Core
+        uses: actions/setup-dotnet@v2
+        with:
+          dotnet-version: '6.0'
+
+      - name: Install SonarScanner
+        run: dotnet tool install --global dotnet-sonarscanner
+
+      - name: Run SonarQube Analysis
+        env:
+          SONAR_TOKEN: ${{ secrets[matrix.practice.sonar_token] }}
+          SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
+        run: |
+          cd ${{ matrix.practice.session }}/practice
+          dotnet sonarscanner begin /k:"${{ matrix.practice.project_key }}" /d:sonar.host.url="${{ secrets.SONAR_HOST_URL }}" /d:sonar.login="${{ secrets[matrix.practice.sonar_token] }}"
+          dotnet build
+          dotnet test --collect:"XPlat Code Coverage"
+          dotnet sonarscanner end /d:sonar.login="${{ secrets[matrix.practice.sonar_token] }}"
