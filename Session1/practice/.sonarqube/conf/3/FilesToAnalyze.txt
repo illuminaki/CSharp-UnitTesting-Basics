@@ -1,0 +1,9 @@
+﻿/home/javieragudelo/Code/microsoft/tests/CSharp-UnitTesting-Basics/Session1/practice/Tests/GlobalUsings.cs
+/home/javieragudelo/Code/microsoft/tests/CSharp-UnitTesting-Basics/Session1/practice/Tests/UnitTest1.cs
+/home/javieragudelo/.nuget/packages/microsoft.net.test.sdk/17.7.1/build/netcoreapp3.1/Microsoft.NET.Test.Sdk.Program.cs
+/home/javieragudelo/.nuget/packages/xunit.runner.visualstudio/2.4.5/build/netcoreapp3.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/home/javieragudelo/.nuget/packages/xunit.runner.visualstudio/2.4.5/build/netcoreapp3.1/xunit.runner.reporters.netcoreapp10.dll
+/home/javieragudelo/.nuget/packages/xunit.runner.visualstudio/2.4.5/build/netcoreapp3.1/xunit.runner.utility.netcoreapp10.dll
+/home/javieragudelo/Code/microsoft/tests/CSharp-UnitTesting-Basics/Session1/practice/Tests/TestResults/71b18f68-9fe7-41dc-9c72-797bd74bcdf7/coverage.cobertura.xml
+/home/javieragudelo/Code/microsoft/tests/CSharp-UnitTesting-Basics/Session1/practice/Tests/TestResults/87ab82d0-7c36-41f8-aae7-d6af35f72da2/coverage.cobertura.xml
+/home/javieragudelo/Code/microsoft/tests/CSharp-UnitTesting-Basics/Session1/practice/Tests/TestResults/c3aa01be-9e62-4345-9b60-0d7ea506af11/coverage.cobertura.xml

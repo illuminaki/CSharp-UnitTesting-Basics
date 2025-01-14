@@ -7,9 +7,9 @@ This repository is designed to help developers build a strong foundation in unit
 ## How to Run Tests for Each Session
 
 1. Navigate to the session folder:
-    ```bash
-        cd Session1
-    ```
+   ```bash
+        cd Session1/practice
+   ```
 Build the projects:
    ```bash
    dotnet build
@@ -27,6 +27,14 @@ After running the tests, you can find the coverage report in:
 To visualize the coverage, consider using tools like **Coverage Gutters** in VS Code or uploading the XML to [Codecov.io](https://codecov.io).
 
 ## Menu
+
+### 0. [Session 0: Dependencias](./Session1/fundamentals.md)
+dependencias
+
+dotnet tool install --global dotnet-sonarscanner
+dotnet sonarscanner --version
+extensions
+
 
 ### 1. [Session 1: Fundamentals and Initial Setup](./Session1/fundamentals.md)
 - Introduction to unit testing

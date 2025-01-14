@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
+  <ProjectName>UnitTestingBasics</ProjectName>
+  <ProjectLanguage>C#</ProjectLanguage>
+  <ProjectType>Product</ProjectType>
+  <ProjectGuid>c47d8101-078c-4dec-9eac-9f54ff91700e</ProjectGuid>
+  <FullPath>/home/javieragudelo/Code/microsoft/tests/CSharp-UnitTesting-Basics/Session1/practice/UnitTestingBasics/UnitTestingBasics.csproj</FullPath>
+  <IsExcluded>false</IsExcluded>
+  <AnalysisResults>
+    <AnalysisResult Id="FilesToAnalyze" Location="/home/javieragudelo/Code/microsoft/tests/CSharp-UnitTesting-Basics/Session1/practice/.sonarqube/conf/2/FilesToAnalyze.txt" />
+  </AnalysisResults>
+  <AnalysisSettings>
+    <Property Name="sonar.cs.roslyn.reportFilePaths">/home/javieragudelo/Code/microsoft/tests/CSharp-UnitTesting-Basics/Session1/practice/.sonarqube/out/2/Issues.json</Property>
+    <Property Name="sonar.cs.analyzer.projectOutPaths">/home/javieragudelo/Code/microsoft/tests/CSharp-UnitTesting-Basics/Session1/practice/.sonarqube/out/2</Property>
+  </AnalysisSettings>
+  <Configuration>Debug</Configuration>
+  <Platform>AnyCPU</Platform>
+  <TargetFramework>net7.0</TargetFramework>
+</ProjectInfo>

@@ -1,0 +1,1 @@
+•R/home/javieragudelo/Code/microsoft/tests/CSharp-UnitTesting-Basics/Session1/practice/UnitTestingBasics/UnitTestingBasics.csproj¢net7.0òCSharp11

@@ -1,0 +1,1 @@
+/home/javieragudelo/Code/microsoft/tests/CSharp-UnitTesting-Basics/Session1/practice/.sonarqube/out/2
